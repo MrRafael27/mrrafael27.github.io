@@ -1,0 +1,75 @@
+/* ------------------------------ fonts ------------------------------ */
+
+@import url(https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap);
+
+/* ------------------------------ global ------------------------------ */
+
+:root {
+    --color-1: #F5F5F5;
+    --color-2: #111111;
+    --color-3: #00C8C8;
+    --color-4: #008080;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--color-3);
+    color: var(--color-2);
+    font-family: "Lexend", sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 5%;
+    background: rgba(245, 245, 245, 0.9);
+    border-radius: 20px;
+}
+
+h1 {
+    margin-bottom: 3%;
+    font-size: 60px;
+    text-align: center;
+}
+
+ul {
+    margin-bottom: 5%;
+}
+
+ul li {
+    padding: 0.3%;
+}
+
+a {
+    color: var(--color-4);
+}
+
+button {
+    cursor: pointer;
+    padding: 3%;
+    width: 30vw;
+    background: var(--color-3);
+    color: var(--color-1);
+    font-family: inherit;
+    font-size: 24px;
+    border: inherit;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+button:hover {
+    background: var(--color-2);
+    color: var(--color-3);
+    transition: 1s;
+}
